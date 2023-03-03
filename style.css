@@ -1,0 +1,59 @@
+p{
+    color: rgb(16, 16, 44); 
+    background:rgb(253, 253, 253);
+    font: size 100px;
+}
+
+
+main {
+    background-color: rgb(255, 210, 187);
+    padding: 10px;
+    border: 2px solid rgb(223, 72, 72);
+
+    font-family: Verdana, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .classEnrol { width: 1000px; }
+  
+  .Feedback { width: 450px; }
+  
+  .Centered { text-align: center; }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background:rgb(7, 7, 7);
+    height: 80px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    margin: 0;
+  }
+
+  article {
+    padding: 20px;
+    margin: 20px;
+    background:red
+  }
+
+ 
+  section {
+    display: flex;
+  }
+
+  article {
+    flex: 1 200px;
+  }
+
+  article:nth-of-type(3) {
+    flex: 3 180px;
+    display: flex;
+    flex-flow: column;
+  }

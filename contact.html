@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel = "stylesheet" href ="./style.css"> 
+    <script src="scripts/contact.js"></script>
+    <script src="scripts/contactValidate.js"></script>
+</head>
+    <body>
+        <a href ="index.html">Home</a>
+        <a href ="resume.html">Resume</a>  
+        <a href ="project.html">Project</a>  
+        <a href ="contact.html">Contact</a>  
+           
+        <main class="classEnrol">
+            <h4 class="Centered">Class Enrollment</h4>
+            <p>UNL HUSKERS ENROLMENT!!</p>
+            <img src = "https://highlandcanine.com/wp-content/uploads/2021/01/siberian-husky-in-the-snow.jpg"  width="500" height="400">
+    
+            <p class="Centered">Enrolled Class and Contact Me</p>
+            <form id="classForm" onsubmit="contactFormProcess()">
+               
+               <h4 >Class Enrolled</h4> 
+                <p>Every computer science major are required to take elective classes and 
+                  a minor. You can either choose a plan A or plan B minor. Please do not choose
+                   more than one minor     
+                </p>
+
+                <div> This is a list of Classes Im taking this semester</div>
+                <ul>
+                    <li>CSCE 410</li>
+                    <li>CSCE 495</li>
+                    <li>CSCE 423</li>
+                    <li>CSCE 464</li>
+
+                </ul>
+               
+               </br>       
+
+                <h4>Please select your star rating:</h4>
+                <input type="radio" id="rate1" name="rate" value="30">
+                <label for="rate1">1 star</label><br>
+                <input type="radio" id="rate2" name="rate" value="60">
+                <label for="rate2">2 star</label><br>  
+                <input type="radio" id="rate3" name="rate" value="100">
+                <label for="rate3">3 star</label><br>
+                <input type="radio" id="rate4" name="rate" value="100">
+                <label for="rate4">4 star</label><br>
+                <input type="radio" id="rate5" name="rate" value="100">
+                <label for="rate5">5 star</label><br>
+
+              </br>   
+              
+              
+              <h4>Contact Me</h4>
+              <table>
+               
+                <tr>
+                  
+                  <td><label for="name">Name:</label></td>
+                  <td><input id ="name" type="text" name="name" size="20"></td>
+                </tr>
+                 <tr>
+              
+                  <td><label for="email">E-mail Address:</label></td>
+                  <td><input id="email" type="text" name="email" size="40"></td>
+
+                  <td>Phone Number:</td>
+                  <td><input  id ="phone" type="text" name="phone" size="20"></td>
+    
+                </tr>
+              </table>
+
+              <h4>Feedback</h4>    
+              <textarea type = "text "id="subject" name="fname" placeholder="Write something.." rows="10" cols="80" ></textarea>
+
+            </br>
+
+                  <input type="submit" value="Send Message">
+                   
+            </form>
+
+          </br>       
+        </br>
+
+          </main>
+    </body>
+
+   
